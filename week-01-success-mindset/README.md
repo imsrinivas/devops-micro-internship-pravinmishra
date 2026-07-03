@@ -204,6 +204,7 @@ Today, the journey to my version 2.0 begins with my mindset OS..!!!
 
 Paste your link here:
 
+https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/
 `__________________________`
 
 ---
@@ -303,16 +304,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week (courses, reading, hands-on AI/DevOps practice)
+* Deep work sessions per week
+* Projects shipped / portfolio artifacts published (theaipmguy.com)
+* Blog posts / LinkedIn content published
+* Certifications earned or in progress
+* Sleep hours
+* Steps / workouts per week
+* Screen-time / recovery breaks 
+* Job applications / interviews per week 
+* Networking conversations / mock interviews per month
 
 ---
 
@@ -338,8 +339,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
+Yes
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -356,7 +356,10 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon–Fri: 60–90 min deep work before/after Boeing work hours (AI PM portfolio, DevOps learning, applications)
+Sat: DMI session
+ Sun: Rest, Review and weekly planning
+
 
 ---
 
@@ -364,12 +367,12 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Tuesday (60 - 90 Mins)
+Thrusday (60 - 90 Mins)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
-
+2 to 3 sessions per week
 ---
 
 ### Distraction Rules
@@ -382,36 +385,43 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone in DND Mode and timer set for specifically social applications
+No LinkedIn/social media browsing until after the day's deep work block is done
+One tab rule during focus sessions — no email/Slack open in the background
+Hard stop time in the evening to protect sleep, given the already heavy screen-time job
+
 
 ---
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
+I couldn't focus much this week as I was planned for a International Trip and also I have got a last minute health issues of getting a fracture in leg. 
 
-Add your answer here...
+I attempted to try to complete the assignment inspite of all of these challenges.
 
 ### My biggest weakness/loop I noticed
+I couldn't focus much this week as I was planned for a International Trip and also I have got a last minute health issues of getting a fracture in leg. 
 
-Add your answer here...
+I attempted to try to complete the assignment inspite of all of these challenges.
+
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Pomorodo Technique.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/`
 
 ---
 
 ## 10. Proof of Work
 
-* LinkedIn Post URL: **ADD LINK HERE**  
-* Blog / Medium : **ADD LINK HERE**  
+* LinkedIn Post URL: **https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/**  
+* Blog / Medium : **https://medium.com/@iamsrinivas.raman/version-2-0-why-a-product-manager-signed-up-for-a-devops-internship-51e209765372**  
 
 ---
 
