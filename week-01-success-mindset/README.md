@@ -33,7 +33,34 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+**Career:**
+I believe most career advice about follow your passion has it backwards. Passion rarely comes first — competence does. Build competence through deliberate practice, and passion follows naturally from mastery.
+
+**Tech Industry:**
+I have been hearing that AI will replace PM's and need to reinvent ourselves or become irerelevant in the Industry. AI has speed up the process of writing specs, summarizing research and drafting stakholder updates. The actual scare skill,judgement about what problem is worth solving and why, hasn't got any easier and matters now most.
+
+**Money:**
+The people who actually build wealth pay themselves first and treat savings like a fixed bill. Budgeting apps and spreadsheets rarely fix this, automation does.
+
+**Life:**
+I believe most people overvalue big, one-time decisions and undervalue the accumulation of small daily defaults.
+
+**Learning:**
+Actual learning happens in the friction of building something that doesn't work yet
+
+**Discipline:**
+Most people still frame their failures as personal weakness rather than a system they haven't built.
+
+**Relationships:**
+I've seen actually relationships last are held together by ordinary consistency, not through intensity.
+
+**Health:**
+I believe most people overestimate the value of intense, occasional effort such as Crash diets, health workouts and underestimate the compounding effect of mildly boring consistency over years.
+
+**Success:**
+I belive success people quietly avoid situations where they'd look unskilled, which quietly caps how far they go and they frame it as a talent.
+
+
 
 ---
 
@@ -55,11 +82,13 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+There is no single Productivity system which works for you and this needs to be designed, tried out, experiemented and iterated enough.
 
 ### Evidence from my life
 
-Add your answer here...
+I have got all productive books, audio books, followed successful productive gurus and adopted their templates and no single system defined has suited me.
+
+The more I experimented and adopted in my life has lived for a short time and again I will experiment and change it. I stil haven't arrived at a good productive system.
 
 ---
 
@@ -67,11 +96,17 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Its very difficult to set a standard process based on any frameworks/guidelines and have people in office/home to follow the same. 
 
 ### Evidence from my life
 
-Add your answer here...
+In my workflife I have followed many work procedures and cross-referenced many standards/publications/blogs and arrive a process which will be close to the current working environment.
+
+During discussions about adopting the process, there is a lot of hesitation from the people in taking up the process.
+
+simillary in the home we need to discuss and colloborate more on the process
+
+Its not more about the process which we arrive at which we will follow but rather than the process we hear from other which we will cumulate and adopt the process.
 
 ---
 
@@ -79,11 +114,15 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Its more easier to think about who are your good mentors rather than arriving at and finalizing your final mentors. 
 
 ### Evidence from my life
 
-Add your answer here...
+I've been thinking a while to arrive at mentors at various disciplines whom I can follow the footsteps of them.
+
+Its been difficult in arriving at them, my mind goes into lot of Judgements about the what are the virtues a mentor should have and how they should be our models whom we can follow and adopt.
+
+Evaluation becomes a killing thought and it will never allow you to settle one mentor and it will be contantly evaluating the qualities of the mentor. 
 
 ---
 
@@ -131,11 +170,35 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/).**
 
 ## Your Article
 
-Add your answer here...
+The updated Version 2.0 of me is not just someone who manages products and writes requirements; it's about me understanding how things actually get built, deployed, automated, and scaled under the hood. Over the past several years, my career has focused on product management — defining problems, aligning stakeholders, shipping features — which has given me strong foundational experience, but I've been asking myself what comes next.
+
+Tech is changing every day, and organizations no longer want PMs who sit at the requirements layer and hand off to engineering. They want product leaders who understand the full stack — who can speak credibly about infrastructure, deployment pipelines, and system reliability, not just user stories. This completely changed how I think about the next step in my career.
+I joined the DevOps Micro Internship, not just to add another line to my resume or join the latest cohort of aspiring engineers, but because I want to close the gap between what I ask engineering teams to build and what it actually takes to build it. I'll be focusing on:
+
+Multiple cloud platforms
+Kubernetes
+Terraform
+Monitoring and observability
+Agentic AI.
+
+I wanted to become a technically credible Product Manager — one who doesn't just translate business needs into tickets, but understands tradeoffs, constraints, and what "production-ready" really means.
+
+n the years going forward, I hope to be working as a Senior/Principal AI Product Manager who can speak the language of platform and infrastructure teams fluently, contribute meaningfully to technical roadmap decisions, and continue building certifications and hands-on skills alongside the product craft I already have.
+
+The Updated Version 2.0 of myself is not about becoming an engineer instead of a PM; it's about building on everything I already started, so my product judgment is backed by real technical depth. Achieving this means consistently showing up, collaborating with engineering teammates as a peer, completing every assignment, deploying real projects, and treating documentation as paramount.
+
+Srinivas, spent that internship building hands-on fluency in Kubernetes, Terraform, and multi-cloud deployment, and he paired it with an emerging focus on agentic AI systems and I would like to publish this in my site aipmguy.com, publishing articles in medium, substack and also in linkedin. 
+
+Today, the journey to my version 2.0 begins with my mindset OS..!!!
+
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/).**
+
+
+
 
 ### Public Link
 
@@ -173,7 +236,10 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes. There were times I presented features to stakeholders as "ready" when I knew they weren't truly production-ready — the demo worked, the checklist looked complete, but the deployment reality underneath was shakier than what I was signaling. The stakeholder's attention was on visible readiness, not what it would take to actually run in production, and I let that gap work in my favor to hit the deadline.
+In the moment, it didn't feel like dishonesty — it felt like management.
+
+There was feeling of stress, over monitoring, watching for extra failures and there was quite uneasiness addressing the technical debts. 
 
 ---
 
@@ -199,16 +265,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. **Eat That Frog — Brain Tracy**
+2. **Deep Work — Cal Newport**
+3. **Crucial Conversations — Kerry Patterson, Joseph Grenny, et al.**
+4. **How to Win Friends and Influence People — Dale Carnegie**
+5. **The 4-Hour Workweek — Timothy Ferriss**
+6. **Atomic Habits — James Clear**       
+7. **The Psychology of Money — Morgan Housel**
+8. **The 7 Habits of Highly Effective People — Stephen R. Covey** 
+9. **Designing Your Life — Bill Burnett & Dave Evans**
+10. **Mindset — Carol S. Dweck**
 
 ---
 
@@ -344,8 +410,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+* LinkedIn Post URL: **ADD LINK HERE**  
+* Blog / Medium : **ADD LINK HERE**  
 
 ---
 
@@ -355,16 +421,15 @@ DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mi
 
 It helps learners build strong DevOps foundations with hands-on experience.
 
-
 ## 📌 Resources
 
-- 🌐 **DMI Official Website:** https://pravinmishra.com/dmi  
-- 🎓 **DevOps for Beginners (Udemy):** https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 **Ultimate Agentic AI DevOps with Clude Code** https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B
-- 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3
-- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
+* 🌐 **DMI Official Website:** [https://pravinmishra.com/dmi](https://pravinmishra.com/dmi)
+* 🎓 **DevOps for Beginners (Udemy):** [https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/](https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/)
+* 🎓 **Ultimate Agentic AI DevOps with Claude Code:** [https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B)
+* 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm:** [https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3)
+* ▶️ **YouTube Playlist (DMI Cohort 3):** [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
+* 🔗 **Pravin Mishra (LinkedIn):** [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
+* 🏢 **CloudAdvisory (LinkedIn):** [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
 
 ---
 
