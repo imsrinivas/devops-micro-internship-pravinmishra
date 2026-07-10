@@ -73,8 +73,8 @@ This is not a course. It is an internship-style program — real deployments, re
 Week 01 → Success Mindset
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux for DevOps -->
 <!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
@@ -135,7 +135,7 @@ Week 01 → Success Mindset
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/ | https://medium.com/@iamsrinivas.raman/version-2-0-why-a-product-manager-signed-up-for-a-devops-internship-51e209765372 |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved |https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609 | https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
