@@ -56,7 +56,7 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 #### Screenshot 5 â€” Claude's response to the second question, showing it ran a command and reported the line count
 
-![Screenshot_05.png](./screenshots/Assignment_01/Screenshot_0.png)
+![Screenshot_05.png](./screenshots/Assignment_01/Screenshot_05.png)
 ---
 
 # Submission Instructions

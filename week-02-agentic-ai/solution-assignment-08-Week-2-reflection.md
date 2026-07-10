@@ -48,13 +48,13 @@ You can publish your blog on:
 
 Add your screenshot here.
 
----
+![Screenshot_01.png](./screenshots/Assignment_08/Screenshot_01.png)
 
 ### Submission Field
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd`
 
 ---
 
@@ -74,7 +74,12 @@ Your post must include:
 * Short reflection (what you learned or built)
 * Required P.S. line exactly as given below
 
----
+
+
+
+
+
+
 
 ### Required P.S. Line (Must Include Exactly)
 
@@ -92,7 +97,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Screenshot_02.png](./screenshots/Assignment_08/Screenshot_02.png)
 
 ---
 
@@ -101,14 +106,28 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 of the DevOps Micro Internship pushed me into Agentic AI — Claude Code, MCP, Subagents, Hooks, Permissions, and Memory.
+
+The biggest shift: AI isn't just answering questions anymore. It's taking actions.
+Designing agents is product work. Most PMs just don't know it yet.
+
+The real shift this week: agentic AI isn't below the product layer. It's inside it.
+Agents are making decisions and taking actions with real consequences. Designing, constraining, and orchestrating them is product work — most PMs just haven't had to do it yet.
+
+That's changing.
+📖 Full reflection on Medium → [link]
+
+Part of the DevOps Micro Internship with Agentic AI, Cohort 3 by Pravin Mishra.
+
+hashtag#AgenticAI hashtag#ClaudeCode hashtag#ProductManagement hashtag#DevOps hashtag#LearningInPublic
+hashtag#AgenticAI hashtag#ProductManagement hashtag#LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609/`
 
 ---
 
