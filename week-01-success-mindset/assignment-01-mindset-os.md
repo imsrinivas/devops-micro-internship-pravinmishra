@@ -204,8 +204,12 @@ Today, the journey to my version 2.0 begins with my mindset OS..!!!
 
 Paste your link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/
 `__________________________`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -414,7 +418,11 @@ Pomorodo Technique.
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
