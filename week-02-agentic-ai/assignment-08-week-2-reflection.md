@@ -46,7 +46,6 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
 
 ![Screenshot_01.png](./screenshots/Assignment_08/Screenshot_01.png)
 
