@@ -20,19 +20,33 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is the entry point into the cloud and login and billing profile that lets to provision and manage real infrastructure like EC2 instances, S3 buckets, and ECR repositories.
+For the DMI batch, Tutorials and docs give you theory, but DevOps is a hands-on craft. The only way to build real skill is to work in the same environment which we use on the job.
+The Free Tier makes this accessible. This helps to deploy websites, spin up virtual machines, configure databases, and set up security protocols — all with minimal to no cost.
+
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+When I signed up for AWS, I got access to the Free Tier — which basically means I can explore and build on real cloud infrastructure without immediately worrying about a bill.
+Since I created my account after July 15, 2025, I'm on the new Free Plan. I got $100 in credits at signup, and I can earn up to another $100 by completing guided activities. The plan runs for six months, or until I use up the credits — whichever comes first. If that happens, I get a 90-day window to either upgrade to a paid plan or pull my data before the account closes.
+On top of the credits, there are Always Free services that don't expire as long as I stay within the monthly usage limits. Those are useful for things I want to keep running without eating into my credits.
+If you signed up before July 15, 2025, your experience is slightly different — you're on the Legacy Free Tier, which gives you 12 months of free usage on services like EC2, S3, RDS, and CloudFront. You also get the Always Free services, same as everyone else.
+Either way, the point is the same — you get enough runway to build real things and figure out how AWS works before any real money is involved.
+
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Amazon RDS (Relational Database Service) is AWS's managed database service. Instead of setting up and maintaining a database server yourself, AWS handles it as below.
+•	Runs relational databases in the cloud — MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora
+•	Handles backups, patching, scaling, and failover automatically
+•	This just connects to it like any other database
+Amazon S3 is where I store files in the cloud — images, backups, static websites, anything really. On the Free Tier, I get 5GB of storage, 20,000 GET requests, and 2,000 PUT requests per month.
+Amazon EC2 is essentially a virtual machine running in the cloud. Instead of a physical server, I get a cloud-hosted machine I can run applications on. The Free Tier gives me 750 hours a month on a t2.micro or t3.micro instance — which is enough to keep one small server running around the clock for a full month. Good for learning, testing, or hosting something simple.
+
 
 ---
 
@@ -56,8 +70,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
-
+![ss01.png](./screenshots/Assignment_01/ss01.png)
 ---
 
 # Submission Instructions

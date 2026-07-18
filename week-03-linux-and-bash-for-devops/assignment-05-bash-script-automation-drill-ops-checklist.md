@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![ss11.png](./screenshots/Assignment_05/ss11.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![ss12.png](./screenshots/Assignment_05/ss12.png)
 
 ---
 
@@ -36,19 +36,25 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash is the command-line language which is used to talk to Linux. Instead of clicking through a GUI, I type commands and the system executes them. It's what I've been using throughout this program to navigate directories, manage files, configure Nginx, check logs, and interact with the server — everything from cd and ls to systemctl and curl. 
+
+It also supports scripting, so repetitive tasks can be written once and automated.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+A shell is any command-line interpreter that lets you talk to the operating system. It's the general category.
+
+Bash (Bourne Again Shell) is one specific shell — the most common one on Linux. There are others like zsh, sh, fish, and ksh, but Bash is what most servers run by default. So every time I use Bash, I'm using a shell, but not every shell is Bash.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Different Bash versions support different features and syntax. If I write a script using features from Bash 5.0 but the server only has Bash 3.2, the script will fail or behave unexpectedly.
+
+I can check with bash --version before writing. If I know what version the target system has, I can either write code that's compatible with it or add version checks to handle differences. On a production server, I don't control the Bash version, so confirming it first prevents shipping broken scripts.
 
 ---
 
@@ -62,19 +68,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![ss21.png](./screenshots/Assignment_05/ss21.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![ss22.png](./screenshots/Assignment_05/ss22.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![ss23.png](./screenshots/Assignment_05/ss23.png)
 
 ---
 
@@ -84,19 +90,29 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+#!/bin/bash is called a shebang. It's the first line of a script and tells the system which interpreter to use when running it.
+
+When I execute a script like ./deploy.sh, the system reads the shebang and sees "use Bash to run this." Without it, the system doesn't know which shell to use — it might try to run it in the wrong one or fail entirely. It has to be the very first line of the file.    
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+A script is just a text file by default — it doesn't have execute permission. 
+
+Running ./script.sh without execute permission returns "Permission denied," even if the shebang is correct.
+
+chmod +x script.sh adds execute permission, so the file can actually be run as a command. After that, ./script.sh works.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+./script.sh runs the file directly — the system reads the shebang line and uses whatever interpreter is specified there. The file needs execute permission for this to work.
+
+bash script.sh explicitly tells the system to run it with Bash, bypassing the shebang entirely. It doesn't require execute permission since you're directly invoking Bash as the interpreter.
+
+./script.sh is the cleaner approach for production — it respects the shebang and doesn't require specifying the interpreter every time. bash script.sh is useful for quick testing or if the file doesn't have execute permissions yet.
 
 ---
 
@@ -110,13 +126,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![ss31.png](./screenshots/Assignment_05/ss31.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![ss32.png](./screenshots/Assignment_05/ss32.png)
 
 ---
 
@@ -126,19 +142,22 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+A variable is a named container that holds a value. I create one by assigning a value to a name, then reference it later with a dollar sign.
+
+Variables are useful for storing values I want to reuse throughout a script, or for making scripts flexible — instead of hardcoding values, I can pass them in as variables. 
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+Bash treats spaces around the = sign as delimiters. If I write name = "DMI" with spaces, Bash reads it as a command and tries to execute name with arguments, resulting in "command not found."
+Without spaces — name="DMI" — Bash correctly interprets it as a variable assignment. The no-space format is how Bash recognizes you're creating a variable, not running a command.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+A variable's value can be accessed using the dollar sign $ before the variable name. which is especially useful when the variable name is next to other characters and needs to be distinguished from surrounding text.
 
 ---
 
@@ -152,13 +171,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![ss41.png](./screenshots/Assignment_05/ss41.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![ss42.png](./screenshots/Assignment_05/ss42.png)
 
 ---
 
@@ -200,13 +219,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![ss51.png](./screenshots/Assignment_05/ss51.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![ss52.png](./screenshots/Assignment_05/ss52.png)
 
 ---
 
@@ -248,19 +267,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![ss61.png](./screenshots/Assignment_05/ss61.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![ss62.png](./screenshots/Assignment_05/ss62.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![ss63.png](./screenshots/Assignment_05/ss63.png)
 
 ---
 
@@ -302,25 +321,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![ss71.png](./screenshots/Assignment_05/ss71.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![ss72.png](./screenshots/Assignment_05/ss72.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![ss73.png](./screenshots/Assignment_05/ss73.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![ss74.png](./screenshots/Assignment_05/ss74.png)
 
 ---
 
@@ -362,19 +381,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![ss81.png](./screenshots/Assignment_05/ss81.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![ss82.png](./screenshots/Assignment_05/ss82.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![ss83.png](./screenshots/Assignment_05/ss83.png)
 
 ---
 

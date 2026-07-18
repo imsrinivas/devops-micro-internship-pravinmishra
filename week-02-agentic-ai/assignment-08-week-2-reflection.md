@@ -53,11 +53,7 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 `https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -130,11 +126,7 @@ hashtag#AgenticAI hashtag#ProductManagement hashtag#LearningInPublic
 
 ### LinkedIn Post Link:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609/`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

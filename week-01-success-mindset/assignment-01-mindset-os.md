@@ -202,16 +202,11 @@ Today, the journey to my version 2.0 begins with my mindset OS..!!!
 
 ### Public Link
 
-Paste your link here:
 
-<<<<<<< HEAD
+
 https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/
 `__________________________`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
----
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -416,15 +411,9 @@ Pomorodo Technique.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-<<<<<<< HEAD
 `https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/`
 =======
-`Add your URL here`
->>>>>>> upstream/main
 
----
 
 ## 10. Proof of Work
 
