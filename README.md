@@ -130,7 +130,7 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/imsrinivasram_devops-cloudengineering-techwriting-share-7458500177558122496-BoT9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAPiUQ4BH6sxKAUSmrEMd9H6ZwrpEEVDZuE|https://medium.com/@iamsrinivas.raman/why-this-product-manager-is-learning-devops-70275610e210|
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/ | https://medium.com/@iamsrinivas.raman/version-2-0-why-a-product-manager-signed-up-for-a-devops-internship-51e209765372 |
 | 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved |https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609 | https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd |
 | 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | — | — |

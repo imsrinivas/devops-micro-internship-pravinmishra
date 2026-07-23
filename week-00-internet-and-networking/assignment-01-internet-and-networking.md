@@ -25,16 +25,15 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![ss01](screenshots/ss01.png)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+![ss01_02](screenshots/ss01_02.png)
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned how to use ChatGPT as a learning assistant to understand technical concepts in a simple and structured way. I’ve also learned and executed different prompt frameworks(CoT etc) for searching in the ChatGPT.
 
 ---
 
@@ -59,7 +58,21 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+EpicReads website is hosted on a computer server in Finland. Even though the server is far away, people from India, the USA, or anywhere in the world can still open the website using the internet.
+
+Every website server has a unique number called an IP Address, similar to a home address. This helps the internet find the correct server where EpicReads is hosted.
+
+When someone opens the website, the information does not travel as one big file. Instead, it is broken into small pieces called packets. This process is called Packet Switching. These packets travel through different internet routes and are joined back together on the user’s device.
+
+The internet uses TCP/IP protocols to move this data reliably:
+
+IP finds the correct destination
+TCP ensures all packets arrive correctly and in order
+
+The browser communicates with the website using HTTP/HTTPS:
+
+HTTP loads webpages
+HTTPS securely encrypts the data
 
 ---
 
@@ -89,12 +102,7 @@ EpicReads bookstore has two application versions:
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
-
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
+![Application Architecture Diagram](screenshots/ss03.png)
 
 ---
 
@@ -102,18 +110,21 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* Vue JS
+* Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Spring Boot
+* Django
+* Node.JS
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
+* MongoDB
 
 ---
 
@@ -142,7 +153,12 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the internet’s phonebook.
+It converts easy-to-remember domain names such as epicreads.com into IP addresses like 52.172.142.222, which computers use to locate servers on the internet.
+
+To connect the domain epicreads.com to the given IP address, an A Record should be used.
+
+An A Record maps a domain name directly to an IPv4 address, allowing users to access the EpicReads website through the domain name instead of typing the server IP and port manually.
 
 ---
 
@@ -176,12 +192,9 @@ ls
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+![VS Code Setup Screenshot](screenshots/ss05_01.png)
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
+![VS Code Setup Screenshot](screenshots/ss05_02.png)
 
 ---
 
@@ -218,7 +231,9 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/imsrinivasram_devops-cloudengineering-techwriting-share-7458500177558122496-BoT9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAPiUQ4BH6sxKAUSmrEMd9H6ZwrpEEVDZuE
+
+https://medium.com/@iamsrinivas.raman/why-this-product-manager-is-learning-devops-70275610e210
 ```
 
 ---
@@ -227,7 +242,24 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+I'm documenting my learning journey through the DevOps Micro Internship Cohort 3.
+
+In this article, I break down:
+
+- ChatGPT & Prompt Engineering
+- Internet & Networking
+- Application Architecture
+- DNS
+- VS Code Setup
+
+Whether you're getting into DevOps, managing technical teams, or just tired of nodding along when engineers talk about infrastructure, this is a good starting point.
+
+Read the full article: https://lnkd.in/gyAivVSh
+
+P.S. This is part of the FREE DevOps Micro Internship (DMI) Cohort 3 by Pravin Mishra.
+Want to join? Start here: Discord Community
+
+#DevOps #CloudEngineering #TechWriting #DMICohort3 #DevOpsInternship
 
 ---
 
@@ -235,19 +267,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Since already exposed these concepts, this week assignment was easy and been exposed to the chatGPT usage and hands on experience with VS code, these assignments are easy.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Taking time to go through all the details and ensuring everything is in tact and meets all the criteria for submissions.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will focus on improving my time management by allocating dedicated blocks for reviewing all assignment criteria and ensuring every submission detail is accurate on the first attempt. I will also dedicate more focused study time to the core technical concepts introduced in the next module to move beyond foundational knowledge and build a deeper practical understanding.
 
 ---
 
@@ -256,7 +288,6 @@ Add your answer here...
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
 
 It helps learners build strong DevOps foundations with hands-on experience.
-
 
 ## 📌 Resources
 
