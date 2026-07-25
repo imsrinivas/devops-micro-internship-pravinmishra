@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+Week 04 → Git & GitHub
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,8 +134,8 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/ | https://medium.com/@iamsrinivas.raman/version-2-0-why-a-product-manager-signed-up-for-a-devops-internship-51e209765372 |
 | 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved |https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609 | https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd |
 | 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
-| 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Bash Scripting | 🔄 In Progress | ⏳ Pending | — | — |
+| 05 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
