@@ -44,8 +44,6 @@ Verify that the deployed React application is reachable from the browser and con
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
 When I ran sudo ss -tulpen, I could see Nginx listed against port 80. The 0.0.0.0 next to it means Nginx isn't just listening locally — it's open to all network interfaces, which means anyone on the internet can reach it over HTTP. The process name nginx confirms it's specifically Nginx holding that port, not something else running in the background.
@@ -92,8 +90,6 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. What happens if Nginx fails to restart in production?**
 
 If Nginx goes down, the website goes down with it. Since Nginx is the only thing serving traffic on port 80, anyone trying to visit the site would just get a connection error — nothing would be there to respond. The risk gets bigger during deployments or config changes, because if something breaks and Nginx fails to restart, the site stays down until I manually go in and fix it. There's no automatic recovery.
@@ -135,8 +131,6 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 ---
 
 ### Notes
-
-Answer the following in your own words:
 
 **1. Were there any errors in the logs?**
 
@@ -198,8 +192,6 @@ Assess server capacity and detect potential performance or failure risks.
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
 Right now, none of the three resources are showing any red flags — CPU is barely doing anything, memory has plenty of headroom with no swap usage, and disk is sitting at 59%. If I had to pick one to watch most closely as the server grows, it would be disk. Unlike CPU or memory, which usually make themselves known through visible slowness, disk just quietly fills up over time — logs accumulate, package caches grow — and by the time it becomes a problem, it's already critical.
@@ -240,8 +232,6 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. How do you confirm that the correct version of the application is deployed?**
 
 I verified the deployment in a few different ways.
@@ -280,7 +270,6 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 ### Notes
 
-Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
@@ -321,8 +310,6 @@ Simulate missing deployment content and recover the application safely.
 ---
 
 ### Notes
-
-Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
@@ -402,15 +389,14 @@ On the Free Tier there are usage limits — if an instance runs past 750 hours a
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7484211306456195072/`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![ss11.png](./screenshots/Assignment_02/ss11.png)
 
 ---
 

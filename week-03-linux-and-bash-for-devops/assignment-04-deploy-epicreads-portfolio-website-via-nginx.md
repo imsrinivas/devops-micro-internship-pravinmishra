@@ -118,15 +118,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+`https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7484211306456195072/`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![ss11.png](./screenshots/Assignment_02/ss11.png)
 
 ---
 

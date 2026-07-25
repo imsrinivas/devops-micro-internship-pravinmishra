@@ -20,35 +20,34 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![ss11.png](./screenshots/Assignment_06/ss11.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![ss12.png](./screenshots/Assignment_06/ss12.png)
 
 ---
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+systemctl is-active nginx returned active — this confirms that the Nginx service is running on the system
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+ss -ltn | grep ':80' showed a listener on port 80 — this confirms that something is actively listening for incoming web traffic on port 80, which is Nginx's default port.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+I must capture a healthy baseline before simulating an incident because it gives me a reference point to compare against when something goes wrong. Without knowing what normal looks like, I cannot accurately identify what has changed or what is causing the problem.
+For example, if I know that Nginx is active, port 80 is listening, and curl returns HTTP/1.1 200 OK under normal conditions, then after simulating an incident I can immediately see which of those things has changed and use that to pinpoint the issue.
 
 ---
 
@@ -62,29 +61,27 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+![ss21.png](./screenshots/Assignment_06/ss21.png)
 
 ---
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+Project-specific rules help Claude understand the project's purpose, the right steps to follow, and what to avoid — so its responses fit the incident workflow without introducing unwanted changes
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+Claude can recommend a recovery command, but the final call belongs to the human — they must review the evidence and confirm it's safe before anything runs on the server.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+Claude won't name a root cause unless the report contains evidence that supports it.
 
 ---
 
@@ -98,29 +95,29 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+![ss31.png](./screenshots/Assignment_06/ss31.png)
+
+![ss32.png](./screenshots/Assignment_06/ss32.png)
 
 ---
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+The Gather phase covers read-only inspection of the Ubuntu server. Claude runs commands to collect information about Nginx, port 80, the HTTP response, disk usage, and available memory
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Claude followed the instruction correctly — only read-only checks were performed. I confirmed this by listing the workspace files and finding no new Bash scripts or other files had been created..
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning lets me decide what the script should check and what each result means before writing any code. It also surfaces missing or unsafe steps early — before the script exists, not after.
 
 ---
 
