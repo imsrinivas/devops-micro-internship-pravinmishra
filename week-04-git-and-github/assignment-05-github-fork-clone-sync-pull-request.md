@@ -141,8 +141,6 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 ## Fork URL
 
-Paste your fork URL here:
-
 `https://github.com/imsrinivas/devops-micro-internship-interviews`
 
 ---
