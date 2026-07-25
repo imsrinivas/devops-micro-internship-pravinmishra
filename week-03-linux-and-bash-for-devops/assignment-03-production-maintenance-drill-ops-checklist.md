@@ -337,8 +337,6 @@ Review and reflect on the security and reliability practices applied during this
 
 ### Security & Reliability Notes
 
-Answer the following in your own words:
-
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
 Password authentication has a few fundamental weaknesses — passwords can be guessed, brute-forced, reused across systems, or accidentally shared. If someone gets the password, they get in.

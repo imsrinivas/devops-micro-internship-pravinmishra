@@ -401,8 +401,6 @@ Create a final Bash script using functions to organize reusable code.
 
 ### Notes
 
-Answer the following in your own words:
-
 **1. What is a function in Bash?**
 
 A function in Bash is a block of code that I give a name to and can reuse multiple times in my script. Instead of writing the same commands over and over, I define them once in a function and call it whenever I need it
