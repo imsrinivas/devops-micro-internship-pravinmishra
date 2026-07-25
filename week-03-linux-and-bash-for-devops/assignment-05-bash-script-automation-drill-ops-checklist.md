@@ -453,7 +453,6 @@ Together, these concepts make the script structured, readable, and easy to maint
 
 #### LinkedIn Post URL
 
-
 `https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7484211306456195072/`
 
 ---
