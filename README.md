@@ -133,9 +133,9 @@ Week 04 → Git & GitHub
 | 00 | Internet & Networking Basics | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/imsrinivasram_devops-cloudengineering-techwriting-share-7458500177558122496-BoT9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAPiUQ4BH6sxKAUSmrEMd9H6ZwrpEEVDZuE|https://medium.com/@iamsrinivas.raman/why-this-product-manager-is-learning-devops-70275610e210|
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7478875150528999424/ | https://medium.com/@iamsrinivas.raman/version-2-0-why-a-product-manager-signed-up-for-a-devops-internship-51e209765372 |
 | 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved |https://www.linkedin.com/feed/update/urn:li:groupPost:1770182-7481482099192004609 | https://medium.com/@iamsrinivas.raman/reflection-week-2-when-ai-stopped-answering-questions-and-started-taking-action-e9ac748135bd |
-| 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
-| 04 | Bash Scripting | 🔄 In Progress | ⏳ Pending | — | — |
-| 05 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/week-3-when-deployed-stopped-meaning-ready-8d5f9414ae1f?postPublishedType=repub|
+| 04 | Bash Scripting | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/bash-automation-and-the-line-between-human-and-machine-what-happens-when-ai-becomes-your-80a9d3ba9b6f?postPublishedType=initial|
+| 05 | Git & GitHub | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/bash-automation-and-the-line-between-human-and-machine-what-happens-when-ai-becomes-your-80a9d3ba9b6f?postPublishedType=initial|
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
