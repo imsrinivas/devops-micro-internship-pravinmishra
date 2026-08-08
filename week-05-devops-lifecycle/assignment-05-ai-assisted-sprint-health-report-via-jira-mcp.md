@@ -20,13 +20,16 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+![ss01.jpg](./screenshots/Assignment_05/ss01.jpg)
 
 ### Notes You Must Write (Very Important):
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+The token alone authenticates that you have access, but the server also needs to know where to send requests and whose account to scope them to.
+Site URL tells the MCP server which instance to hit — for tools like Jira or Confluence, every team has a different subdomain  Without it, the server has no endpoint to call.
+Account email is often required to resolve your identity within that instance — some APIs use it to filter results to your projects, assign items to you, or satisfy permission checks that go by user identity rather than token alone.
+Think of it like logging into a bank: the token is your PIN, the site URL is the branch address, and the email is your account number. All three together say who you are, where your account lives, and that you're allowed in.
 
 ---
 
@@ -40,13 +43,17 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+![ss02.jpg](./screenshots/Assignment_05/ss02.jpg)
 
 ### Notes You Must Write (Very Important):
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+Claude Code never runs the server code directly. It just executes whatever command you give it — npx spins up a Node process, uvx spins up a Python process — and then communicates with the result over stdin/stdout using the MCP protocol.
+
+The language is an implementation detail that stays entirely inside the server process. By the time Claude Code is talking to it, all it sees is a stream of JSON-RPC messages: tool listings, call requests, and responses. Those messages look the same regardless of whether the server that produced them was written in TypeScript, Python, Go, or anything else.
+
+The protocol is the contract. The language is invisible.
 
 ---
 
@@ -60,13 +67,17 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+![ss03.jpg](./screenshots/Assignment_05/ss03.jpg)
 
 ### Notes You Must Write (Very Important):
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+.mcp.json is checked into version control. The moment you commit it, your token is in git history — visible to anyone with repo access, permanently, even if you delete it later.
+
+settings.local.json is local-only and git-ignored by default. It never leaves your machine.
+
+The rule is simple: anything that authenticates you belongs in the local file, anything that describes the server belongs in the shared file. The server config (command, args, tool names) is safe to share. The credential that proves you're allowed to use it is not.
 
 ---
 
@@ -80,7 +91,7 @@ Restart Claude Code and confirm the Jira MCP server shows as connected.
 
 #### Screenshot 4 — `/mcp` output showing `jira: connected`
 
-Add your screenshot here.
+![ss04.jpg](./screenshots/Assignment_05/ss04.jpg)
 
 ---
 
@@ -94,13 +105,19 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 #### Screenshot 5 — Claude's response showing the live sprint issue list retrieved via Jira MCP
 
-Add your screenshot here.
+![ss05.jpg](./screenshots/Assignment_05/ss05.jpg)
 
 ### Notes You Must Write (Very Important):
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+Two signals visible in the screenshots:
+
+The skill called Jira 6 times. The terminal output explicitly shows "Called Jira 6 times" — that's live MCP tool calls going out to your actual Jira instance, not Claude generating plausible-looking data.
+
+The output contains specifics Claude couldn't fabricate. Real issue keys (SMGJSR-2, SMGJSR-3, SMGJSR-4, SMGJSR-9), a sprint ID (ID: 38), an exact end date (2026-08-14 18:30 UTC), a start date (2026-08-07), and a last-updated timestamp (2026-08-08 at 03:35 IST). Claude has no way to invent those values and have them match your actual board — they had to come from the API response.
+
+The combination of logged tool calls plus board-specific identifiers is what distinguishes a live data pull from a hallucination.
 
 ---
 
@@ -114,21 +131,46 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+![ss06.jpg](./screenshots/Assignment_05/ss06.jpg)
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+![ss07.jpg](./screenshots/Assignment_05/ss07.jpg)
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+Included (read-only):
+
+mcp__jira__jira_search — query issues in the sprint
+mcp__jira__jira_get_issue — fetch individual issue details
+mcp__jira__jira_get_sprint — retrieve sprint metadata
+mcp__jira__jira_get_board — retrieve board configuration
+Read — read local files if needed
+
+Deliberately excluded (mutating):
+
+jira_create_issue — would let Claude add tickets to the board
+jira_update_issue — would let Claude edit summaries, estimates, or assignees
+jira_transition_issue — would let Claude move tickets between statuses
+jira_add_comment — would let Claude post comments on issues
+
+Why the exclusion matters:
+
+allowed-tools acts as a hard whitelist. Any tool not on the list is simply unavailable to the skill — it can't call them even if the prompt tried to. This means the read-only guarantee isn't just a behavioural instruction ("don't do this"), it's enforced at the capability level. The SM's board stays untouched by design, not by trust.
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+Because the SM's job is to protect the process, not own the work.
+
+If the skill could transition issues, it might move a ticket to "In Progress" before the developer has actually picked it up — making the board lie. If it could add comments, it might post updates that look like team communication but weren't written by a human. If it could update estimates, it would be making sizing decisions that belong to the Dev team in refinement.
+
+Every one of those mutations would corrupt the single thing the SM depends on most: an accurate, human-owned board that reflects reality.
+
+Other roles have more contained blast radii. A PO skill that drafts acceptance criteria wrongly can be edited. A Dev skill that generates bad code fails a test. But a SM skill that mutates board state silently poisons the data that every ceremony — standup, review, retro — is built on top of. By the time you notice, the sprint is already misread.
+
+The restriction isn't about distrust of Claude. It's about where the cost of a mistake lands. For the SM, it lands on the whole team's shared source of truth.
 
 ---
 
@@ -142,13 +184,21 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+![ss08.jpg](./screenshots/Assignment_05/ss08.jpg)
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+Gather — The skill called Jira 6 times to pull every issue in the active sprint: status, assignee, story points, and last-updated timestamp. Claude did this automatically.
+Analyze — The skill computed velocity (2/4 done, or 20% by points in the terminal run), flagged the 3 items still in "Idea" state with no forward movement, and surfaced the missing-estimate warning. Claude did this automatically.
+Human Act — Opening Jira in the browser and deciding whether to move SMGJSR-3, SMGJSR-4, or SMGJSR-9 into "In Progress," reassign them, or reprioritize before the sprint closes. You did this. The skill surfaces the standup question but never touches the board.
+Verify — Re-running /sprint-health (or checking the board directly) after taking action to confirm the status change landed correctly.
+ 
+Why Human Act must stay human:
+The skill deliberately has no write tools. That's not just a technical constraint — it's a judgment boundary. Moving a ticket to "In Progress" signals team commitment, affects burndown, and may trigger notifications. The SM needs to weigh context the skill can't see: is the developer blocked, on leave, or already working on it off-board? Claude can tell you what the data says. Only you can decide what it means and what to do next.
+Automating that step would turn a reporting tool into a board actor — which breaks the Scrum principle that the team owns its process.
+
 
 ---
 

@@ -82,8 +82,8 @@ Week 03 → Linux & Bash for DevOps
 Week 04 → Git & GitHub
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -136,7 +136,7 @@ Week 04 → Git & GitHub
 | 03 | Linux for DevOps | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/week-3-when-deployed-stopped-meaning-ready-8d5f9414ae1f?postPublishedType=repub|
 | 04 | Bash Scripting | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/bash-automation-and-the-line-between-human-and-machine-what-happens-when-ai-becomes-your-80a9d3ba9b6f?postPublishedType=initial|
 | 05 | Git & GitHub | ✅ Completed | ✅ Solved | — |https://medium.com/@iamsrinivas.raman/bash-automation-and-the-line-between-human-and-machine-what-happens-when-ai-becomes-your-80a9d3ba9b6f?postPublishedType=initial|
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | DevOps Lifecycle & Agile | ✅ Completed  | ✅ Solved | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
